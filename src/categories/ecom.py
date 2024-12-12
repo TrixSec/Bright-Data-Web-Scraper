@@ -17,7 +17,7 @@ def choose_ecom():
             print(colored("You selected Google!", 'green'))
             google_main()
         elif choice == '2':
-            print(colored("You selected Google!", 'green'))
+            print(colored("You selected Amazon!", 'green'))
             amazon_main()
         else:
             print(colored("Invalid choice, please choose a valid option.", 'red', attrs=['bold']))

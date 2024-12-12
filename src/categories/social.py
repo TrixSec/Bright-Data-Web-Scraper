@@ -9,7 +9,7 @@ def choose_social():
     while True:
         print(colored("Choose a Social Media:", 'yellow', attrs=['bold']))
         print(colored("1. Instagram (instagram.com)", 'green'))
-        print(colored("1. Quora (quora.com)", 'green'))
+        print(colored("2. Quora (quora.com)", 'green'))
 
 
         choice = input(colored("Enter the number of your choice: ", 'red', attrs=['bold']))
