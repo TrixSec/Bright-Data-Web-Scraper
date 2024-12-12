@@ -12,7 +12,7 @@ def choose_others():
         choice = input(colored("Enter the number of your choice: ", 'red', attrs=['bold']))
         
         if choice == '1':
-            print(colored("You selected TocToc!", 'green'))
+            print(colored("You selected Wikipedia!", 'green'))
             wiki_main()
         else:
             print(colored("Invalid choice, please choose a valid option.", 'red', attrs=['bold']))
